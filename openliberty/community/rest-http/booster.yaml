@@ -1,0 +1,15 @@
+name: Open Liberty - REST
+description: Runs an Open Liberty REST-0 application
+source:
+  git:
+    url: https://github.ibm.com/bhdaniel/rest-http
+    ref: master
+metadata:
+  app:
+    osio:
+      enabled: false
+environment:
+  staging:
+    source:
+      git:
+        ref: 'master'

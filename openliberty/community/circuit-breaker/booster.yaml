@@ -1,0 +1,17 @@
+metadata:
+  app:
+    launcher:
+      runsOn: 
+        - '!starter'
+name: Open Liberty - Circuit Breaker
+description: Demonstrates Circuit Breaker in Open Liberty
+source:
+  git:
+    url: https://github.ibm.com/bhdaniel/circuit-breaker
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: 'master'
+

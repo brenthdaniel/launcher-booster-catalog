@@ -1,0 +1,17 @@
+metadata:
+  app:
+    launcher:
+      runsOn: 
+        - '!starter'
+name: REST CRUD - Open Liberty
+description: An Open Liberty REST application that updates a database
+source:
+  git:
+    url: https://github.ibm.com/bhdaniel/rest-http-crud
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: 'master'
+ 

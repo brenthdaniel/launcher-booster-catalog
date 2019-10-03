@@ -1,0 +1,12 @@
+name: Open Liberty - Config Map
+description: An Open Liberty example application where parameters are retrieved from an OpenShift configmap
+source:
+  git:
+    url: https://github.ibm.com/bhdaniel/configmap
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: 'master'
+ 

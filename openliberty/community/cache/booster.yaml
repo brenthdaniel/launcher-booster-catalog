@@ -1,0 +1,16 @@
+metadata:
+  app:
+    launcher:
+      runsOn: 
+        - '!starter'
+name: Thorntail - Cache
+description: Demonstrate how to use a cache server in Open Liberty
+source:
+  git:
+    url: https://github.ibm.com/bhdaniel/cache
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: 'master'

@@ -1,0 +1,16 @@
+name: Open Liberty - Health Checks
+description: Demonstrates Health Checks in Open Liberty
+source:
+  git:
+    url: https://github.ibm.com/bhdaniel/health-check
+    ref: master
+metadata:
+  app:
+    osio:
+      enabled: false
+environment:
+  staging:
+    source:
+      git:
+        ref: 'master'
+

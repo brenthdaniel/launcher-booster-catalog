@@ -1,0 +1,15 @@
+metadata:
+  app:
+    launcher:
+      runsOn: none
+name: Open Liberty - REST and RH SSO
+description: A simple HTTP application using Open Liberty secured by RedHat SSO
+source:
+  git:
+    url: https://github.ibm.com/openliberty/rest-http-secured
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: 'master'
